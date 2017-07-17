@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "CODE-DE - Copernicus Data Exploitation Platform - Client",
+    "packageVersion": "0.0.0",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "constantinius",
+    "githubRepository": "foss4g-code-de"
+  }
+}
