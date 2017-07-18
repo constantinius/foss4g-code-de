@@ -17,8 +17,8 @@
     ],
     [
         "technologies.md",
-        "technologies-frameworks.md",
-        "technologies-tools.md",
+        "technologies-frameworks.html",
+        "technologies-tools.html",
         "technologies-opensearch-javascript.md",
         "technologies-d3-timeslider.md"
     ],
