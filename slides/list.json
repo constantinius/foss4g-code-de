@@ -3,12 +3,12 @@
     [
         "introduction.html",
         "introduction-highlights.md",
-        "introduction-team.md",
-        "introduction-code-de.md"
+        "introduction-code-de.md",
+        "introduction-team.md"
     ],
+    "features-concepts.md",
     [
         "features.md",
-        "features-constraints.md",
         "features-browse.md",
         "features-filter-2.html",
         "features-filter.md",
