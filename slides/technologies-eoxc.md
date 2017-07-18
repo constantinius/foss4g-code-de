@@ -1,3 +1,0 @@
-##  eoxc
-
-Basic framework

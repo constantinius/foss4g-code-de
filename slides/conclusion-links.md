@@ -1,1 +1,6 @@
-##  links
+## Links
+
+  - CODE-DE: https://code-de.org/
+  - EOxC: https://github.com/eoxc/eoxc/
+  - opensearch-browser: https://github.com/eoxc/opensearch/
+  - d3.TimeSlider: https://github.com/EOX-A/d3.TimeSlider/
