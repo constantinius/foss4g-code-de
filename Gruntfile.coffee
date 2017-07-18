@@ -32,7 +32,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-
+        
         connect:
 
             livereload:
@@ -78,7 +78,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-
+        
         buildcontrol:
 
             options:
@@ -90,7 +90,7 @@ module.exports = (grunt) ->
                 options:
                     remote: '<%= pkg.repository.url %>'
                     branch: 'gh-pages'
-
+        
 
 
     # Load all grunt tasks.
@@ -108,9 +108,8 @@ module.exports = (grunt) ->
                     slides
                 section: (slide) ->
                     grunt.template.process sectionTemplate, data:
-                        type: if slide.endsWith('.md') then 'markdown' else 'html'
                         slide:
-                            grunt.file.read "slides/" + slide
+                            slide
             grunt.file.write 'index.html', html
 
     grunt.registerTask 'test',
@@ -133,13 +132,13 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-
+    
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-
+    
 
     # Define default task.
     grunt.registerTask 'default', [
