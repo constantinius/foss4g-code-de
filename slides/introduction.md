@@ -1,3 +1,7 @@
-##  Introduction
+##  EOxC
 
-This is a new Markdown slide
+Framework to build EO catalogue clients
+
+Free and open source
+
+https://github.com/eoxc/

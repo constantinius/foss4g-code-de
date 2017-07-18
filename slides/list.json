@@ -2,11 +2,18 @@
     "index.md",
     [
         "introduction.md",
-        "introduction-team.md"
+        "introduction-team.md",
+        "introduction-code-de.md"
     ],
     [
         "features.md",
-        "features-concepts.md"
+        "features-constraints.md",
+        "features-browse.md",
+        "features-filter.md",
+        "features-filter-2.md",
+        "features-show.md",
+        "features-inspect.md",
+        "features-download.md"
     ],
     [
         "technologies.md",
@@ -15,6 +22,10 @@
         "technologies-opensearch-javascript.md",
         "technologies-d3-timeslider.md",
         "technologies-eoxc.md"
+    ],
+    [
+        "conclusion.md",
+        "conclusion-links.md",
+        "conclusion-thanks.md"
     ]
-
 ]

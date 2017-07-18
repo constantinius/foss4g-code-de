@@ -1,5 +1,5 @@
 
-# CODE-DE - Copernicus Data Exploitation Platform - Client
+# EOxC – a modern web catalog client
 
 From the terminal, pop in:
 

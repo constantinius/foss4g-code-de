@@ -1,3 +1,7 @@
 ##  Team
 
-This is a new Markdown slide
+EOX
+
+Stephan Meissl
+
+Fabian Schindler
