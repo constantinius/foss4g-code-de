@@ -5,4 +5,4 @@
   - opensearch: https://github.com/eoxc/opensearch/
   - d3.TimeSlider: https://github.com/EOX-A/d3.TimeSlider/
 
-http://eox.at
+https://eox.at

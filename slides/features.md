@@ -1,10 +1,10 @@
 ##  Features
 
-EOxC helps to build user interfaces to:
-  - browse
-  - filter
-  - show search results
-  - inspect
+EOxC allows to easily build user interfaces to
+
+  - browse,
+  - filter,
+  - inspect, and
   - download
 
-for EO catalogues.
+products from EO catalogs.

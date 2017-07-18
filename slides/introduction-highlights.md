@@ -1,6 +1,6 @@
 ##  EOxC
 
-Framework to build EO catalog clients
+Framework to build EO web catalog clients
 
 MIT license
 

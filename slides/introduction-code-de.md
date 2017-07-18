@@ -1,7 +1,9 @@
-##  CODE-DE
+!["CODE-DE"](resources/code-de.jpg)
 
-Copernicus Data Exploitation Platform - Deutschland
+Copernicus Data and Exploitation Platform – Deutschland
 
-Data Access Portal for Sentinel-1/2 and derived products
+Data Access Portal for Sentinel and derived products
 
-The CODE-DE map client is an instance of EOxC
+The CODE-DE catalog client is an instance of EOxC
+
+https://code-de.org
