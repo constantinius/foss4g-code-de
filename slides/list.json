@@ -2,7 +2,7 @@
     "index.md",
     [
         "introduction.md",
-        "introduction-team.md",
+        "introduction-team.html",
         "introduction-code-de.md"
     ],
     [
