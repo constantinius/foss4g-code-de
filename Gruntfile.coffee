@@ -21,7 +21,6 @@ module.exports = (grunt) ->
                     'templates/_index.html'
                     'templates/_section.html'
                     'slides/list.json'
-                    'slides/*'
                 ]
                 tasks: ['buildIndex']
 
