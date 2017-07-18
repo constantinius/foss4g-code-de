@@ -1,7 +1,8 @@
 [
-    "index.md",
+    "index.html",
     [
-        "introduction.md",
+        "introduction.html",
+        "introduction-highlights.md",
         "introduction-team.md",
         "introduction-code-de.md"
     ],
@@ -24,7 +25,7 @@
     ],
     [
         "conclusion.md",
-        "conclusion-links.md",
-        "conclusion-thanks.md"
-    ]
+        "conclusion-links.md"
+    ],
+    "index.html"
 ]
