@@ -9,19 +9,18 @@
         "features.md",
         "features-constraints.md",
         "features-browse.md",
-        "features-filter.md",
         "features-filter-2.html",
+        "features-filter.md",
         "features-show.md",
         "features-inspect.md",
         "features-download.md"
     ],
     [
         "technologies.md",
-        "technologies-frameworks.md",
-        "technologies-tools.md",
+        "technologies-frameworks.html",
+        "technologies-tools.html",
         "technologies-opensearch-javascript.md",
-        "technologies-d3-timeslider.md",
-        "technologies-eoxc.md"
+        "technologies-d3-timeslider.md"
     ],
     [
         "conclusion.md",

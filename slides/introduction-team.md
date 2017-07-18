@@ -1,7 +1,5 @@
 ##  Team
 
-EOX
+![Stephan Meissl](resources/stephan.jpg)
 
-Stephan Meissl
-
-Fabian Schindler
+![Fabian Schindler](resources/fabian.jpg)
