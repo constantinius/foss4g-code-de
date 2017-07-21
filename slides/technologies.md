@@ -1,7 +1,7 @@
 ##  Technologies
 
 Built on:
-  - established frameworks/tools
+  - established frameworks and tools
   - custom built components
     - opensearch-browser
     - d3.TimeSlider

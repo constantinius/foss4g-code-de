@@ -6,9 +6,14 @@
         "introduction-code-de.md",
         "introduction-team.md"
     ],
-    "features-concepts.md",
+    "ambition.md",
     [
         "features.md",
+        "features-intro.html",
+        "features-intro-2.html",
+        "features-intro-3.html",
+        "features-intro-4.html",
+        "features-intro-5.html",
         "features-browse.md",
         "features-filter-2.html",
         "features-filter.md",
@@ -24,8 +29,7 @@
         "technologies-d3-timeslider.md"
     ],
     [
-        "conclusion.md",
-        "conclusion-links.md"
+        "conclusion.md"
     ],
     "index.html"
 ]

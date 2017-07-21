@@ -1,7 +1,9 @@
 ## Download
 
-Download list ("shopping cart")
-
-Download directly or as URL-List/Metalink
+- "shopping cart"
+- Download directly
+  - link from OpenSearch
+  - WCS with EO extension
+- Download URL-List or Metalink file
 
 ![download](resources/download.png)

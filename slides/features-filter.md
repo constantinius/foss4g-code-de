@@ -1,9 +1,11 @@
 ##  Filter
 
-Filter view with widgets to:
-
-  - select start/end time
-  - draw/load shapes
-  - set additional metadata filters
+- Time
+  - set start and end time
+  - default via TimeSlider
+- Spatial
+  - draw or load shapes
+  - default via currently visible map
+- Additional
 
 ![Geo- and Cloud filter](resources/geo-cloud-filter.png)
