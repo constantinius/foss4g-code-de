@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>EOxC – a modern web catalog client</title>
+        <meta name="description" content="EOxC – a modern web catalog client">
+        <meta name="author" content="Fabian Schindler, Stephan Meissl">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/eox.css" id="theme">
+
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+  <section data-html>
+
+<h1 style="margin-bottom: -15px;">EOxC</h1>
+<h2>a modern web catalog client</h2>
+<p>FOSS4G-E, Paris, 2017-07-19</p>
+<a class="image" href="https://eox.at"><img style="background-color:rgba(255, 255, 255, 0); box-shadow:0 0 0; width:200px; margin-bottom: -25px;" src="./resources/eox-logo.png" alt="EOX IT Services GmbH, Austria" title="EOX IT Services GmbH, Austria"/></a>
+<p><a href="mailto:office@eox.at">office@eox.at</a><br/><a href="https://twitter.com/eox_a">@eox_a</a></p>
+<p>Fabian Schindler <a href="https://twitter.com/__fschindler__">@__fschindler__</a></p>
+<p>Stephan Meißl <a href="https://twitter.com/Schpidi">@Schpidi</a></p>
+<br/>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0; margin:0 0 10px 0;" src="./resources/80x15.png" /></a><small>&nbsp;This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</small></p>
+
+  </section>
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+  <section data-html>
+
+<h2>EOxC</h2>
+<img data-src="./resources/client.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+##  EOxC
+
+* Framework to build EO web catalog clients
+* MIT license
+* https://github.com/eoxc
+* v1.0.0 almost there (rc.6)
+* Used by e.g. DLR (CODE-DE) & ESA
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+!["CODE-DE"](resources/code-de.jpg)
+
+* Copernicus Data and Exploitation Platform – Deutschland
+* Data Access Portal for Sentinel and derived products
+* The CODE-DE catalog client is an instance of EOxC
+* https://code-de.org
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+##  Team
+
+![Fabian Schindler](resources/fabian.jpg)
+![Stephan Meissl](resources/stephan.jpg)
+
+[![EOX IT Services GmbH, Austria](resources/eox-logo.png "EOX IT Services GmbH, Austria")](https://eox.at)
+
+  </section>
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+  <section data-markdown>
+
+##  Ambition
+
+* Conveniently zoom to the data
+* Comprehensibly show the spatial and temporal distribution of products
+* Usable with large collections regardless of client hardware
+* Runs in all modern browsers
+* Uses open standards
+* Rapidly reusable and customizable
+* Entirely browser based
+
+  </section>
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+  <section data-markdown>
+
+##  Features
+
+EOxC allows to easily build user interfaces to
+
+  - browse,
+  - filter,
+  - inspect, and
+  - download
+
+products from EO catalogs.
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Overview</h2>
+<img data-src="./resources/client.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Map and spatial filter</h2>
+<img data-src="./resources/client-2.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>TimeSlider and time filter</h2>
+<img data-src="./resources/client-3.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Extended and additional filters</h2>
+<img data-src="./resources/client-4.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Search results</h2>
+<img data-src="./resources/client-5.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+## Browse
+
+Dynamic map layers - in sync with search (WMTS or WMS plus time)
+
+![map](resources/browse.gif)
+
+TimeSlider widget - temporal distribution (OpenSearch, WMS, or WCS)
+
+![timeslider](resources/timeslider.gif)
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Filter</h2>
+<img data-src="./resources/filter.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+##  Filter
+
+- Time
+  - set start and end time
+  - default via TimeSlider
+- Spatial
+  - draw or load shapes
+  - default via currently visible map
+- Additional
+
+![Geo- and Cloud filter](resources/geo-cloud-filter.png)
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+##  Interactive search results
+
+highlight, (de-)select and inspect from map and result list
+
+![map bubble](resources/map-bubble.jpg)
+
+3-way highlighting
+
+![highlight](resources/highlight.gif)
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Inspect</h2>
+
+Modal with detailed metadata and further links to single datasets
+
+<img data-src="./resources/details.png"/>
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+## Download
+
+- "shopping cart"
+- Download directly
+  - link from OpenSearch
+  - WCS with EO extension
+- Download URL-List or Metalink file
+
+![download](resources/download.png)
+
+  </section>
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+  <section data-markdown>
+
+##  Technologies
+
+Built on:
+  - established frameworks and tools
+  - custom built components
+    - opensearch-browser
+    - d3.TimeSlider
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Frameworks</h2>
+
+<div style="width: 100%">
+<div><img class="brand" alt="backbone" data-src="resources/backbone.png"> Backbone</div>
+<div><img class="brand" alt="Marionette.js" data-src="resources/marionette.svg"> Marionette</div>
+<div><img class="brand" alt="OpenLayers" data-src="resources/openlayers.svg"> OpenLayers</div>
+<div><img class="brand" alt="bootstrap" data-src="resources/bootstrap.svg" style="width: 100px"> Bootstrap</div>
+</div>
+<style>
+.brand {
+  max-height: 100px !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  vertical-align: middle !important;
+}
+</style>
+
+  </section>
+
+                            
+                                
+  <section data-html>
+
+<h2>Tools</h2>
+
+<div><img class="brand" alt="webpack" data-src="resources/webpack.svg"> Webpack</div>
+<img class="brand" alt="babel" data-src="resources/babel.svg">
+<img class="brand" alt="Travis" data-src="resources/travis-light.png">
+
+<style>
+.brand {
+  max-height: 100px !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  vertical-align: middle !important;
+}
+</style>
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+##  OpenSearch-browser
+
+- JS client library for OpenSearch interfaces
+- Extensions: Geo, Time, EO, CEOS Best Practices
+- Paginator for iterative exploration e.g. in web worker
+- https://github.com/eoxc/opensearch
+
+  </section>
+
+                            
+                                
+  <section data-markdown>
+
+##  d3.TimeSlider
+
+Dynamic time-slider widget built using D3.
+
+Features:
+  - zooming/panning
+  - draw-selection of intervals
+  - display of records:
+    - individual records incl. grouping
+    - histogram
+    - seamless switching
+  - highly configurable e.g. zoom limits
+
+https://github.com/EOX-A/d3.TimeSlider
+
+  </section>
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+  <section data-markdown>
+
+### In production use since April 2017
+
+## Links
+
+  - CODE-DE: https://code-de.org
+  - EOxC: https://github.com/eoxc/eoxc
+  - opensearch: https://github.com/eoxc/opensearch
+  - d3.TimeSlider: https://github.com/EOX-A/d3.TimeSlider
+
+https://eox.at
+
+  </section>
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+  <section data-html>
+
+<h1 style="margin-bottom: -15px;">EOxC</h1>
+<h2>a modern web catalog client</h2>
+<p>FOSS4G-E, Paris, 2017-07-19</p>
+<a class="image" href="https://eox.at"><img style="background-color:rgba(255, 255, 255, 0); box-shadow:0 0 0; width:200px; margin-bottom: -25px;" src="./resources/eox-logo.png" alt="EOX IT Services GmbH, Austria" title="EOX IT Services GmbH, Austria"/></a>
+<p><a href="mailto:office@eox.at">office@eox.at</a><br/><a href="https://twitter.com/eox_a">@eox_a</a></p>
+<p>Fabian Schindler <a href="https://twitter.com/__fschindler__">@__fschindler__</a></p>
+<p>Stephan Meißl <a href="https://twitter.com/Schpidi">@Schpidi</a></p>
+<br/>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0; margin:0 0 10px 0;" src="./resources/80x15.png" /></a><small>&nbsp;This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</small></p>
+
+  </section>
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+
+          // Full list of configuration options available at:
+          // https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            pdfMaxPagesPerSlide: 1,
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+              { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+            ]
+          });
+
+        </script>
+    </body>
+
+</html>

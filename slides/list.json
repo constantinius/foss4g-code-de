@@ -1,0 +1,35 @@
+[
+    "index.html",
+    [
+        "introduction.html",
+        "introduction-highlights.md",
+        "introduction-code-de.md",
+        "introduction-team.md"
+    ],
+    "ambition.md",
+    [
+        "features.md",
+        "features-intro.html",
+        "features-intro-2.html",
+        "features-intro-3.html",
+        "features-intro-4.html",
+        "features-intro-5.html",
+        "features-browse.md",
+        "features-filter-2.html",
+        "features-filter.md",
+        "features-show.md",
+        "features-inspect.html",
+        "features-download.md"
+    ],
+    [
+        "technologies.md",
+        "technologies-frameworks.html",
+        "technologies-tools.html",
+        "technologies-opensearch-javascript.md",
+        "technologies-d3-timeslider.md"
+    ],
+    [
+        "conclusion.md"
+    ],
+    "index.html"
+]
